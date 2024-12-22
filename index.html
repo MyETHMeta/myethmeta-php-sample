@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>MyEthMeta Example</title>
+  <script type="module" src="app.ts"></script>
+</head>
+
+<body>
+  <div id="set-metadata">
+    <h2>Set Metadata</h2>
+    <div>
+      <label for="address_metamask" style="display: inline-block; width: 100px;">Address:</label>
+      <input type="text" id="address_metamask" name="address_metamask" size="50" readonly style="margin-left: 10px;" />
+      <button id="connect-metamask-button" style="margin-left: 10px;">Connect MetaMask</button>
+    </div>
+    <div style="margin-top: 10px;">
+      <label for="metadata_url" style="display: inline-block; width: 100px;">Metadata URL:</label>
+      <input type="text" id="metadata_url" name="metadata_url" size="50" style="margin-left: 10px;" />
+      <button id="write-metadata-button" style="margin-left: 10px;">Write metadata</button>
+    </div>
+  </div>
+</body>
+
+</html>
